@@ -17,9 +17,11 @@
 }
 
 .center { text-align: center;
-		  margin: 0 auto;
-		  width: 90%;
 		 }
+		 
+table	 { width: 90%;
+		   margin: 0 auto;}
+		   
 table, th, td  { border: 5px solid black;
 				 border-collapse: separate;
 				 border-spacing: 10px;
@@ -36,20 +38,37 @@ caption       {	  font-family: Darkh4;
 			    text-align: center;
 			    font-size: 40px;
 			   }
-			   
+.courses      { background-color: #ccc;
+				width: 25%;
+			   }
+th.days        { background-color: #99ff66;
+				 width: 15%;
+			   }
+td      { color: #1d2f20;
+		  background-color: #ccffcc;
+		  font-size: 20px;
+		 }
+th   { border: 3px solid #1d2f20;
+	   padding: 5px;
+	   border-radius: 5px;
+	   font-size: 20px;
+	 }
+	 
 </style>
 </head>
 <body>
 <div class="center">
    <table>
    <caption>My Class Schedule</caption>
+   <colgroup class="courses"></colgroup>
+   <colgroup class="days"></colgroup>
 		  <tr>
 			  <th>Courses</th>
-			  <th>Monday</th>
-			  <th>Tuesday</th>
-			  <th>Wednesday</th>
-			  <th>Thursday</th>
-			  <th>Friday</th>
+			  <th class="days">Monday</th>
+			  <th class="days">Tuesday</th>
+			  <th class="days">Wednesday</th>
+			  <th class="days">Thursday</th>
+			  <th class="days">Friday</th>
 		  </tr>
 		  <tr>
 			  <th>INFO 1120</th>
