@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+		background-color: #F5F5DC;
+		font-family: Roboto, Arial, sans-serif;
+		font-size: medium;
+		color: #008B8B;
+}
+
+header {
+	width: 900px;
+	height: 200px;
+	background-color: #FF7F50;
+	padding-top: 10px;
+	margin: auto;
+}
+
+section {
+	width: 900px;
+	background-image: url('Images');
+	background-repeat: repeat-y;
+	overflow: hidden;
+	margin: auto;
+}
+
+nav {
+	float: left;
+	width: 250px;
+}
+
+article {
+	float: left;
+	width: 650px;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	width: 900px;
+	height: 70px;
+	background-color: #008B8B;
+	margin: auto;
+}
+
+.logoleft {
+	
+	float: left;
+	padding-top: 0px;
+	padding-left: 15px;
+}
+
+nav a {
+	border: 6px inset #D2691E;
+	background-color: #FF7F50;
+	line-height: 250%;
+	font-weight: bold;
+	font-size: 35px;
+	color: #F5F5DC;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 20px;
+	font-family: Roboto;
+}
+
+nav a:hover {
+	color: #008B8B;
+	border: 2;px outset #D2691E;}h1 {	color #FF7F50;	text-align: center;	font-size: xx-large;}#D2691Ep { color: #D2691px outset #D2691E;
+}
+
+h1 {
+	color: #FF7F50;
+	text-align: center;
+	font-size: xx-large;
+}
+
+p{ color: #D2691E;}
