@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Home - Extreme Honeymoons</title>
 	
-	<link rel="stylesheet" href="Mystyles.css" type="text/css">
+	<link rel="stylesheet" href="Mystyles.css" type="text/css" width="150">
 
 	
 	<script type="text/javascript" src="myscripts.js"></script>
@@ -12,11 +12,10 @@
 </head>
 <body onload="preloadImages()">
 	<header>
-	
-		
-		
-		<img src="Images/Logo.png" alt="Extreme Honeymoons Logo">
+		<img src="Images/Logo2.png" alt="Extreme Honeymoons Logo" class="logoleft">
+		<img src="Images/BannerLogo.png" alt="Extreme Honeymoons Logo" class="logoleft">
 	</header>
+	
 	
 	<section>
 				<nav>
@@ -36,10 +35,22 @@
 						Take a look at our wild adventures and take the opportunity to complete our survery.
 					</p>
 					
-					<div id="image">
-						
-						<p><a><img src="Images/hunt2.jpg" alt="Cougar Hunting" width="200" height="141" class="thumbnailleft"></a>
-					</div>
+	<h1>Image Swap Example</h1>
+	<p class="instructions">[Instructions:  Mouse over small images to see larger image.]</p>
+
+	<div id="thumbs">
+		<img src="Images/Thumbnails/CoupleBike2-thumbnail.jpg" alt="Couple Biking" onmouseover="swapImage(0);" />
+		<img src="Images/Thumbnails/RetiredCouple-thumbnail.jpg" alt="Retired Couple" onmouseover="swapImage(1);" />
+		<img src="Images/Thumbnails/Paraglide-thumbnail.jpg" alt="Paragliding" onmouseover="swapImage(2);" />
+		<img src="Images/Thumbnails/CoupleBike3-thumbnail.jpg" alt="Couple Biking 2" onmouseover="swapImage(3);" />
+		<br />
+			
+	</div>
+	<div id="image">
+
+		<img id="theImage" src="Images/CoupleBike2.jpg" alt="Couple Biking" />
+		<h3 id="bottomText">Couple Biking</h3>
+	</div>
 					
 							<h2>Hear What Some Of Our Clients Have To Say!</h2>
 					
@@ -51,7 +62,7 @@
 						</p>
 
 						
-				</article>
+	  </article>
 	
 	</section>
 	
@@ -59,6 +70,6 @@
 			<p> Contact Us By Email: <a href="mailto:10980424@uvu.edu">Neveah Valdizan</a></p>
 			<p>This web site has been created soley for educational purposes.</p>
 	
-	</footer>
+</footer>
 </body>
 </html>

@@ -26,12 +26,12 @@ section {
 
 nav {
 	float: left;
-	width: 250px;
+	width: 275px;
 }
 
 article {
 	float: left;
-	width: 650px;
+	width: 600px;
 	text-align: center;
 }
 
@@ -44,9 +44,10 @@ footer {
 }
 
 .logoleft {
-	
+	max-height: 90%;
 	float: left;
-	padding-top: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	padding-left: 15px;
 }
 
@@ -58,9 +59,9 @@ nav a {
 	font-size: 35px;
 	color: #F5F5DC;
 	text-decoration: none;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-left: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 0px;
 	font-family: Roboto;
 }
 
@@ -76,3 +77,31 @@ h1 {
 }
 
 p{ color: #D2691E;}
+
+#thumbs, #image {
+	width: 680px;
+	border: solid 1px #000;
+	text-align: center;
+	margin: 0 auto 0 auto;
+	color: #000;
+	background: #eee;
+	padding: 5px;
+}
+
+#thumbs {
+	margin-top: 10px;
+}
+
+
+#thumbs img {
+	border: solid 1px #000;
+	margin: 5px;
+}
+
+#image{
+	height:500px;
+}
+
+.instructions{
+	font-style:italic;
+}
