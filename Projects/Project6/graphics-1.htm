@@ -2,36 +2,28 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Rent a Pet - Graphics</title>
+<title>Extreme Honeymoons - Graphics</title>
 
 <style type="text/css">
-
-
-	#thumbs, #image {
-		width: 900px;
-		text-align: center;
-		margin: 0 auto 0 auto;
-		color: #000;
-	}
-
-	#thumbs {
-		margin-top: 10px;
-	}
-
-			
-	#thumbs img {
-		border: solid 1px #000;
-		margin: 5px;
-	}
-
-	#image{
-		height:500px;
-	}
-
-	.instructions{
-		font-style:italic;
-	}
-
+#thumbs, #image {
+width: 700px; border: solid 1px #000;
+text-align: center; margin: 0 auto 0
+auto; color: #000; background: #eee;
+padding: 5px;
+}
+#thumbs {
+margin-top: 10px;
+}
+#thumbs img {
+border: solid 1px #000;
+margin: 5px;
+}
+#image{
+height:400px;
+}
+.instructions{
+font-style:italic;
+}
 </style>
 
 <script language="JavaScript" type="text/javascript">
@@ -43,26 +35,26 @@
 if (document.images) {
 	PrintButton1.src = "images/print5.gif"
 	PrintButton2.src = "images/print6.gif"
-	logo1.src = "images/logo1.jpg"
-	logo2.src = "images/logo2.jpg"
+	logo1.src = "images/Logo1.jpg"
+	logo2.src = "images/Logo2.jpg"
 }
 
 
 		var imgArray = new Array(
-			'Image1Lg.jpg',
-			'Image2Lg.jpg',
-			'Image3Lg.jpg',
-			'Image4Lg.jpg'
+			'Image1Lg_new.jpg',
+			'Image2Lg_new.jpg',
+			'Image3Lg_new.jpg',
+			'Image4Lg_new.jpg'
 			
 
 		);
 
 
 		var titleArray = new Array(
-			'Dog Performing a Trick',
-			'Two Dogs',
-			'Dog and Two Boys Portrait',
-			'Woman and Dog'
+			'Couple Biking',
+			'Couple Hiking',
+			'Mountain Climber',
+			'Snowboarding'
 			
 		);
 			
@@ -101,25 +93,18 @@ if (document.images) {
 <div align="center">
 
 <div>
-	<a href="" onMouseOver="document.PrintButton.src=PrintButton2.src;"
-	onMouseOut="document.PrintButton.src=PrintButton1.src;">
-
-	<img src="images/print5.gif" width="250" height="50" 
-	name="PrintButton" alt="PrintButton" style="border:none;"/>
-
-	</a>
+	<a href="" onmouseover="document.getElementById('print').src='Images/Print2.jpg';"
+	onmouseout="document.getElementById('print').src='Images/Print1.jpg';">
+	<img src="Images/Print1.jpg" alt="Print Page" width="200" height="50"
+	id="print"></a> 
 </div>
 
 
-<div id="logo">
-	<a href="logo.html" onMouseOver="document.logo.src=logo2.src;"
-	onMouseOut="document.logo.src=logo1.src;">
-
-	<img src="images/logo1.jpg" width="133" height="126" 
-	name="logo" alt="logo" style="border:none;"/>
-
-	</a>
-</div>
+<div>
+	<a href="" onmouseover="document.getElementById('logo').src='Images/Logo2.jpg';"
+	onmouseout="document.getElementById('logo').src='Images/Logo1.jpg';">
+	<img src="Images/Logo1.jpg" alt="Logo" id="logo"></a>
+</div> 
 
 <br />
 <br />
@@ -128,20 +113,20 @@ if (document.images) {
 
 
 <div id="thumbs">
-		<img src="Images/Thumbnails/Image1Sm.jpg" alt="Dog doing Trick" onmouseover="swapImage(0);" />
-		<img src="Images/Thumbnails/Image2Sm.jpg" alt="Two hunting Dogs" onmouseover="swapImage(1);" />
-		<img src="Images/Thumbnails/Image3Sm.jpg" alt="Dog and two kids" onmouseover="swapImage(2);" />
-		<img src="Images/Thumbnails/Image4Sm.jpg" alt="Woman and Dog" onmouseover="swapImage(3);" />
+		<img src="Images/Thumbnails/Image1Sm_new.jpg" alt="Biking Couple" onmouseover="swapImage(0);" />
+		<img src="Images/Thumbnails/Image2Sm_new.jpg" alt="Hiking Couple" onmouseover="swapImage(1);" />
+		<img src="Images/Thumbnails/Image3Sm_new.jpg" alt="Mountain Climber" onmouseover="swapImage(2);" />
+		<img src="Images/Thumbnails/Image4Sm_new.jpg" alt="Snowboarder" onmouseover="swapImage(3);" />
 		
 </div>
 
 	<div id="image">
 
-		<img id="theImage" src="Images/FullSize/Image1Lg.jpg" alt="Dog doing trick" />
-		<h3 id="bottomText">Newlyweds Sailing</h3>
+		<img id="theImage" src="Images/FullSize/Image1Lg_new.jpg" alt="Biking Couple" />
+		<h3 id="bottomText">Biking Couple</h3>
 	</div>
 
-<img src="images/2colback.jpg">
+<img src="images/colback_new.jpg">
 
 <br />
 <br />
