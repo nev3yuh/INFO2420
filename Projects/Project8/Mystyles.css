@@ -101,7 +101,7 @@ h1 {
 h2 {
     color: #FF7F50; /* Coral orange */
     font-family: Darkh4, Roboto;
-	padding: 8px;
+	padding-left: 30px;
 }
 
 p {
@@ -109,6 +109,7 @@ p {
     font-size: large; /* Slightly larger for readability */
     font-family: Roboto, Arial, sans-serif;
 	font-weight: bold;
+	padding-left: 25px;
 }
 
 #thumbs, #image {
