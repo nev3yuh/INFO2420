@@ -63,7 +63,6 @@ footer {
 .bannerright {
     max-height: 90%;
     float: right;
-    padding: 5px 40px 5px 0; /* Top, Right, Bottom, Left */
 }
 
 .logoleft {
@@ -104,7 +103,7 @@ h2 {
 	padding-left: 30px;
 }
 
-p {
+p, ul, li {
     color: #F5F5DC; /* Chocolate */
     font-size: large; /* Slightly larger for readability */
     font-family: Roboto, Arial, sans-serif;
@@ -123,7 +122,7 @@ p {
 }
 
 #image {
-    height: 350px; /* Reduced height for better layout */
+    height:500px; /* Reduced height for better layout */
     overflow: hidden; /* Ensures content stays within the div */
 }
 
@@ -131,10 +130,6 @@ p {
     width: 80px; /* Smaller thumbnails */
     border: solid 1px #000;
     margin: 5px;
-}
-
-#image{
-	height:500px;
 }
 
 .instructions {
@@ -164,3 +159,100 @@ a:active {
     color: #FF4500; /* Orange-red for active links */
     text-decoration: none; /* Removes underline */
 }
+
+hr {
+	border: none;
+    height: 2px; 
+    background-color: #008B8B;
+}
+
+h1.ucas {
+	font-family:'Darkh4';
+	color: #FF7F50;
+	text-align: center; 
+}
+
+h2.ucas {
+	font-family: 'Darkh4';
+	color: #FF7F50;
+	text-align: center; 
+}
+
+h3 {
+	padding-left: 20px;
+	font-family: 'Darkh4';
+	color: #D2691E;
+}
+
+.thumbnailsleft {
+    float: left;
+    padding: 20px; 
+}
+
+.thumbnailright {
+    float: right;
+    padding: 20px; 
+}
+
+table {
+	width: 100%;
+	margin: 0 auto;
+}
+
+table, th, td {
+	border: 3px solid #D2691E;
+	border-collapse: separate;
+	border-spacing: 7px;
+	border-radius: 10px;
+}
+
+caption {
+	font-family: Darkh4;
+	color: #FF7F50; 
+	font-weight: bold;
+	background-color: #008B8B;
+	border-radius: 10px;
+	height: 30px;
+	font-size: 23px;
+}
+
+td {
+	border: 3px solid #D2691E;		  
+	background-color: #D2691E;
+	font-size: 11.3px;
+	color: #F5F5DC;
+}
+
+th {
+	border: 3px solid #FF7F50;
+	background-color: #FF7F50;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 11.3px;
+	color: #F5F5DC;
+}
+
+/* Center and style the header */
+.custom-header {
+    display: flex; /* Enables Flexbox */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically if needed */
+    height: auto; /* Fits content naturally */
+    margin: 0 auto; /* Centers header section on the page */
+    background-color: #F5F5DC; /* Optional: Add background color */
+}
+
+/* Style and center the banner image */
+.banner-image {
+    max-height: 90%; /* Keeps the banner proportional */
+    display: block; /* Centers the banner image */
+    margin: 0 auto;
+}
+
+/* Style and center the ImageMap */
+.map-image {
+    max-width: 80%; /* Ensures the map fits well */
+    display: block; /* Centers the ImageMap */
+    margin: 20px auto; /* Adds spacing above and below */
+}
+

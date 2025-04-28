@@ -3,8 +3,8 @@ PrintButton1 = new Image
 	logo1 = new Image
 	logo2 = new Image
 if (document.images) {
-	PrintButton1.src = "Images/Print1.gif"
-	PrintButton2.src = "Images/Print2.gif"
+	PrintButton1.src = "Images/Print1.jpg"
+	PrintButton2.src = "Images/Print2.jpg"
 	logo1.src = "Images/Logo1.jpg"
 	logo2.src = "Images/Logo2.jpg"
 }
