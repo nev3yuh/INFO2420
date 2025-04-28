@@ -239,7 +239,7 @@ th {
     align-items: center; /* Centers vertically if needed */
     height: auto; /* Fits content naturally */
     margin: 0 auto; /* Centers header section on the page */
-    background-color: #F5F5DC; /* Optional: Add background color */
+    background-color: ; /* Optional: Add background color */
 }
 
 /* Style and center the banner image */
