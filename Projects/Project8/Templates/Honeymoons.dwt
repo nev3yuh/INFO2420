@@ -20,9 +20,9 @@
 		<a href="index.html" onmouseover="document.getElementById('logo').src='Images/Logo2.jpg';"
 	onmouseout="document.getElementById('logo').src='Images/Logo1.jpg';">
 			
-	<img src="../Images/Logo1.jpg" alt="Logo" id="logo" class="logoleft"></a>
+	<img src="Images/Logo1.jpg" alt="Logo" id="logo" class="logoleft"></a>
 		
-		<img src="../Images/newbanner.jpg" alt="Extreme Honeymoons Logo" class="bannerright">
+		<img src="Images/newbanner.jpg" alt="Extreme Honeymoons Logo" class="bannerright">
 	</header>
 	
 	
