@@ -17,7 +17,7 @@
 <body onload="preloadImages()">
 	<header>
 		
-		<a href="../index.html" onmouseover="document.getElementById('logo').src='Images/Logo2.jpg';"
+		<a href="index.html" onmouseover="document.getElementById('logo').src='Images/Logo2.jpg';"
 	onmouseout="document.getElementById('logo').src='Images/Logo1.jpg';">
 			
 	<img src="../Images/Logo1.jpg" alt="Logo" id="logo" class="logoleft"></a>
@@ -34,7 +34,7 @@
 					<a href="../Favorites.html">My Favorites &nbsp;</a></br>
 					<a href="../Survey.html">Survey Page &nbsp;</a></br>
 					
-					<a href="../index.html" onmouseover="document.getElementById('Print').src='Images/Print2.jpg';"
+					<a href="index.html" onmouseover="document.getElementById('Print').src='Images/Print2.jpg';"
 		onmouseout="document.getElementById('Print2').src='Images/Print1.jpg';"
 			   onclick="window.print(); return false;">
 
